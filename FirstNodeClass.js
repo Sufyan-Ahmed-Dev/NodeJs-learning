@@ -13,4 +13,3 @@ res.end("Hello World this is my first node server");
 server.listen(port , hostName , ()=>{
     console.log (`sever started at http://${hostName}:${port}`);
 });
-
