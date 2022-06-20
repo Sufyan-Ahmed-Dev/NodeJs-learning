@@ -5,7 +5,7 @@ const port = 3000;
 
 const server = http.createServer((req,res)=>{
 res.statusCode = 200;
-res.setHeader("content-type" , "text/plane");
+res.setHeader("content-type" , "text/html");
 res.end("Hello World this is my first node server");
 
 })
